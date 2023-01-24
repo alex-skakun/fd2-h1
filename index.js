@@ -7,3 +7,4 @@ do {
 } while (gender !== 'М' && gender !== 'Ж');
 
 alert(`Добро пожаловать, ${gender === 'М' ? 'господин' : 'госпожа'} ${userName}`);
+//hello
