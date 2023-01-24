@@ -1,7 +1,7 @@
 let userName;
 
 do {
-	userName = prompt('введите ваше имя');
+	userName = prompt('введите ваше имя')?.trim();
 } while(!userName);
 
 let gender;
