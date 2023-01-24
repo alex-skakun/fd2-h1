@@ -1,4 +1,8 @@
-const userName = prompt('введите ваше имя');
+let userName; 
+
+do {
+    userName = prompt('введите ваше имя')?.trim();
+} while (!userName);
 
 let gender;
 
