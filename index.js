@@ -14,4 +14,4 @@ const userName = requestData (
    
     const gender = requestData (
        ()=> prompt ('введите ваш пол (М или Ж)'?.toUpperCase().trim(),
-       (gender) => gender === 'М' || gender === 'Ж',);) 
+       (gender) => gender === 'М' || gender === 'Ж',));
