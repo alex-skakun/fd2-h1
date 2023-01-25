@@ -1,4 +1,4 @@
-const userName = prompt('введите ваше имя');
+let userName = prompt('введите ваше имя');
 
 let gender;
 
