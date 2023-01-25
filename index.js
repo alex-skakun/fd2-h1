@@ -1,6 +1,8 @@
-let userName = prompt('введите ваше имя');
-
-let gender;
+let userName = '';
+let gender = '';
+while (userName === '') {
+    userName = prompt('введите ваше имя');
+}
 
 do {
     gender = prompt('введите ваш пол (М или Ж)')?.toUpperCase().trim();
