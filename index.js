@@ -1,5 +1,5 @@
 let userName = prompt('введите ваше имя');
-//variable gender
+
 let gender;
 
 do {
