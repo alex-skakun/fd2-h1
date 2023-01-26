@@ -1,4 +1,8 @@
-const userName = prompt('введите ваше имя');
+let userName;
+
+do{
+    userName = prompt ('Введите свое Имя')?.trim()
+} while(!userName);
 
 let gender;
 
@@ -7,3 +11,5 @@ do {
 } while (gender !== 'М' && gender !== 'Ж');
 
 alert(`Добро пожаловать, ${gender === 'М' ? 'господин' : 'госпожа'} ${userName}`);
+
+//установили что не мог отказаться от ввода имени или ввести пустое имя.
