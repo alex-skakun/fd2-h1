@@ -5,7 +5,7 @@ let gender;
     if (userName === null) {
         alert('Вы отказались от ввода') 
     }
-        else 
+        
     if (userName.length === 0 || userName === "") {
         alert('Вы не ввели имя')
     }
