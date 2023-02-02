@@ -1,5 +1,10 @@
 const userName = prompt('введите ваше имя');
 
+
+do {
+    userName = prompt('введите ваше имя')?.trim();
+} while (!userName);
+
 let gender;
 
 do {
